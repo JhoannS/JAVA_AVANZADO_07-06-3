@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::selection{
+    background-color: black;
+    color: aliceblue;
+}
+
+html,
+body{
+    height: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+
+}
+main h1{
+    margin: 10px 0;
+}
+.form-signin{
+    max-width: 630px;
+    padding: 15px;
+    border-radius:5px ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-floating{
+    margin: 15px 0;
+    width: 320px;
+}
+.form-floating input:focus{
+    border: 3px solid black;
+}
+.btn{
+    margin: 10px 0;
+}
